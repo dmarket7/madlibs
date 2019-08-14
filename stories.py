@@ -43,3 +43,17 @@ story = Story(
     """Once upon a time in a long-ago {place}, there lived a
        large {adjective} {noun}. It loved to {verb} {plural_noun}."""
 )
+story2 = Story(
+    ["silly_word_1", "name", "illness", "plural_noun", "adjective_1", "adjective_2", "silly_word_2", "place", "number", "adjective_3"], """Dear School Nurse: \n
+{silly_word_1} {name} will not be attending school today. He/she has come down with a case of {illness} and has horrible {plural_noun} and a/an {adjective_1} fever. We have made an appointment with the {adjective_2} Dr. {silly_word_2}, who studied for many years in {place} and has {number} degrees in pediatrics. He will send you all the information you need. Thank you! \n
+Sincerely \n
+Mrs. {adjective_3} """
+)
+
+
+
+
+
+
+
+story_list = [story, story2]
